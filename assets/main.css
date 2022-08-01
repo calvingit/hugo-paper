@@ -425,7 +425,7 @@ video {
   height: auto;
 }
 
-html, 
+html,
   body {
   height: 100%;
 }
@@ -1354,7 +1354,7 @@ body {
 }
 
 .mb-20 {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .mr-5 {
@@ -1715,7 +1715,7 @@ body {
   transition-property: none !important;
 }
 
-.btn-menu::before, 
+.btn-menu::before,
   .btn-menu::after {
   display: block;
   height: 2px;
@@ -1727,7 +1727,7 @@ body {
   content: var(--tw-content);
 }
 
-.dark .btn-menu::before, .dark 
+.dark .btn-menu::before, .dark
   .btn-menu::after {
   --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);

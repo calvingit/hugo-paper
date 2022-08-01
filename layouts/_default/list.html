@@ -40,13 +40,13 @@
 {{ end }}<!---->
 
 {{ end }}
-
+{{ if (ne .Params.hidden true) }}
 <section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   <h2 class="!my-0 pb-1 !leading-none">{{ .Title }}</h2>
   <time class="text-sm opacity-60">{{ .Date | time.Format ":date_medium" }}</time>
   <a class="absolute inset-0" href="{{ .Permalink }}"></a>
 </section>
-{{ end }}
+{{ end }} {{ end }}
 
 <!-- Main Nav -->
 {{ if gt $paginator.TotalPages 1 }}
